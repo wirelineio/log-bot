@@ -1,0 +1,13 @@
+name: log-bot
+platform: nodejs
+buildTool: yarn
+version: 0.0.1
+functions:
+  info:
+    handler: handler.info
+    description: Basic Info
+    events:
+      - http:
+          path: /
+          method: get
+          cors: true
