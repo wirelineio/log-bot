@@ -1070,10 +1070,10 @@
     automerge "^0.10.0"
     uuid "^3.3.2"
 
-"@wirelineio/botkit@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@wirelineio/botkit/-/botkit-0.0.4.tgz#6cb6d9146cc07f0037bbd40daf8222976c76bd56"
-  integrity sha512-83aSWT27jnKHst60by7LbvhQgglsyqfpMS38ypEcV9yMIjOl/vklf5K29qzzItSszrgXC33PnSrcoVN4AnDYzw==
+"@wirelineio/botkit@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@wirelineio/botkit/-/botkit-0.0.5.tgz#5260304e2e88869ebeea63abea836443a397b280"
+  integrity sha512-hx2hTmxq4y5/44etd35ngkPcvwrx88hn/+KGNqUWoZvLFd0ajPP8vS7j8VSUD0s5yibdIyxlsSaSStGmWH+yEw==
   dependencies:
     "@wirelineio/dsuite-core" "^0.1.7"
     "@wirelineio/registry-client" "^0.1.22"

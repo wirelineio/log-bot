@@ -34,8 +34,8 @@
     "clean": "rm -rf ./dist webpack.zip",
     "clean:data": "rm -rf ./data",
     "build": "webpack",
-    "start": "WRL_ALLOW_DEMOCREDENTIALS=0 WIRE_SIGNALHUB=http://localhost:4000 AUTOMERGE_WORKER_PATH=./dist wire dev",
-    "start:debug": "WIRE_PARTY_KEY=4b469c6045f7717a5885fbd1fdb6400bc18689ce2d1067c6404f9093fa6eda71 yarn start",
+    "start": "WRL_ALLOW_DEMOCREDENTIALS=0 AUTOMERGE_WORKER_PATH=./dist wire dev -p 3030",
+    "debug": "WIRE_SIGNALHUB=http://localhost:4000 yarn start",
     "test": "jest --silent"
   }
 }
