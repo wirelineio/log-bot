@@ -1,1 +1,3 @@
-# log-bot
+# Log Bot
+
+Basic Bot using a simple Log view.
