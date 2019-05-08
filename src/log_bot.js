@@ -10,6 +10,6 @@ import { DocBot } from '@wirelineio/botkit';
 export class LogBot extends DocBot {
 
   async onDocumentChange(itemId, content) {
-    console.log('LogtBot.onDocumentChange', itemId, content);
+    console.log('LogBot.onDocumentChange', itemId, content);
   }
 }
