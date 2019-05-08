@@ -2,14 +2,24 @@
 // Copyright 2019 Wireline, Inc.
 //
 
-import { DocBot } from '@wirelineio/botkit';
+import { LogBot } from '@wirelineio/botkit';
+
+const VIEW = 'logging';
 
 /**
- * Log bot.
+ * Logging bot.
  */
-export class LogBot extends DocBot {
+export class LoggingBot extends LogBot {
 
-  async onDocumentChange(itemId, content) {
-    console.log('LogBot.onDocumentChange', itemId, content);
+  /**
+   * @constructor
+   * @param {object} kappa DSuite core object.
+   */
+  constructor(kappa) {
+    super(kappa, VIEW);
+  }
+
+  onUpdate(view) {
+    console.log(JSON.stringify(view.logs.pop()));
   }
 }
