@@ -1100,12 +1100,12 @@
     automerge "^0.10.0"
     uuid "^3.3.2"
 
-"@wirelineio/botkit@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@wirelineio/botkit/-/botkit-0.0.9.tgz#b3464f68d1a142629a8e50363b29b2c7e424df96"
-  integrity sha512-DTA1GUvkOELaghghpFItJ+MbwnnzZkjXnTWupIaqhJJNc4J7sHftrA84tBfV/OxnqNAMnbJlXBMoJec5CTjudw==
+"@wirelineio/botkit@^0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@wirelineio/botkit/-/botkit-0.0.11.tgz#d36ae76bb9e460468f1ab71a757f60314cb33c2a"
+  integrity sha512-GDq58csuw3DQZEUr0zoEs+dO5JyJZeILYbelcnQiF9URo92C3sbNqo6bOSxdPeGRtTIy26g2g2lzwgCqQyGbEw==
   dependencies:
-    "@wirelineio/dsuite-core" "^0.1.12"
+    "@wirelineio/dsuite-core" "^0.1.15"
     "@wirelineio/registry-client" "^0.1.22"
     "@wirelineio/sdk" "^0.1.24"
     hypercore-crypto "^1.0.0"
@@ -1148,15 +1148,15 @@
     yamljs "^0.3.0"
     yargs "^11.0.0"
 
-"@wirelineio/dsuite-core@^0.1.12":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@wirelineio/dsuite-core/-/dsuite-core-0.1.14.tgz#1d9261d69eed884f74c35dfcdb52c28a367fa97d"
-  integrity sha512-81EIW3VyC1w1b5N3LBSNAwPp1OnJOfIv8ZYnFsLJ4k+AgtJjlqBwX175ENTFZiwcPwEREqEFHrc4/EFng6TJBw==
+"@wirelineio/dsuite-core@^0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@wirelineio/dsuite-core/-/dsuite-core-0.1.15.tgz#6ecbb425bb5a554a145297bc200b59e4a8f5260d"
+  integrity sha512-6Tzpk/g6xz6BrLqXgqZR/LomaF7qPU0HQ8vyLWiRvhvpasIu+lDlEIeS2niFmp89np6JJsJ/OMPzirEbOwmlcQ==
   dependencies:
     "@geut/discovery-swarm-webrtc" "^2.0.0-alpha.18"
     "@wirelineio/automerge-worker" "^0.1.12"
     "@wirelineio/megafeed" "^0.1.12"
-    "@wirelineio/wire-inspect" "^0.1.14"
+    "@wirelineio/wire-inspect" "^0.1.15"
     bufferutil "^4.0.1"
     charwise "^3.0.1"
     domexception "^1.0.1"
@@ -1337,10 +1337,10 @@
     popsicle "^9.2.0"
     uuid "^3.2.1"
 
-"@wirelineio/wire-inspect@^0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@wirelineio/wire-inspect/-/wire-inspect-0.1.14.tgz#157e8a17de14b5f537cb840d472b576044bcd6f2"
-  integrity sha512-AZAfcGGICQu6jdsW/ClNlBya9+Rrkg3aaGZkkrAW85c3BOp2XvEqiSK16pZB5ExiBRctrkwTDiKz/bhp2lSarA==
+"@wirelineio/wire-inspect@^0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@wirelineio/wire-inspect/-/wire-inspect-0.1.15.tgz#ba48fc2015ffb62ced09b347c086aeb0ff38a562"
+  integrity sha512-+S26QUS4X8HP+6DJ+CjjnDd+ZFXL1XdzaFCgi/v0VpaMIzo9loUCesDSDk1qdCE6QLztLZHetsmkfYGw+8levA==
   dependencies:
     debug "^4.1.1"
     lodash "^4.17.11"
