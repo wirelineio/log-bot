@@ -4,19 +4,19 @@
 
 import { LogBot } from '@wirelineio/botkit';
 
-const VIEW = 'logging';
+import { view } from './def';
 
 /**
- * Logging bot.
+ * Example bot.
  */
-export class LoggingBot extends LogBot {
+export class ExampleBot extends LogBot {
 
   /**
    * @constructor
    * @param {object} kappa DSuite core object.
    */
   constructor(kappa) {
-    super(kappa, VIEW);
+    super(kappa, view);
   }
 
   onUpdate(view) {
