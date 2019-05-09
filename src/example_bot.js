@@ -4,7 +4,7 @@
 
 import { LogBot } from '@wirelineio/botkit';
 
-import { view } from './def';
+import { view } from './defs';
 
 /**
  * Example bot.
