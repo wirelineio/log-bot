@@ -7,7 +7,7 @@ import 'source-map-support/register';
 import { BotFactory, HttpHandler } from '@wirelineio/botkit';
 import Wireline from '@wirelineio/sdk';
 
-import { ExampleBot } from './src/example_bot';
+import { ExampleBot } from './src/bot';
 
 const bot = BotFactory.createBot(ExampleBot);
 
