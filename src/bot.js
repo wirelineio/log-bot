@@ -1,11 +1,11 @@
 import { LogBot } from '@wirelineio/botkit';
 
-import { view } from './defs';
+import { name, view } from './defs';
 
 export class Bot extends LogBot {
 
   constructor(kappa) {
-    super(kappa, view);
+    super(kappa, view, name);
   }
 
   onUpdate(view) {
