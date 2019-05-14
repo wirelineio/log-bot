@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@wirelineio/botkit": "^0.0.11",
+    "@wirelineio/botkit": "^0.0.12",
     "@wirelineio/sdk": "^0.1.19",
     "source-map-support": "^0.5.11"
   },
