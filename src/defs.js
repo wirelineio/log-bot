@@ -1,2 +1,2 @@
-export const name = 'ExampleBot';
+export const name = 'LogBot';
 export const view = 'example';
