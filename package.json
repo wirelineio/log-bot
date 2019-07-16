@@ -12,7 +12,8 @@
     "@babel/plugin-transform-runtime": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.4.2",
-    "@wirelineio/cli": "^0.2.0",
+    "@wirelineio/cli": "^0.2.6",
+    "@wirelineio/cli-bot": "^0.2.6",
     "babel-loader": "^8.0.0",
     "babel-plugin-add-module-exports": "^1.0.0",
     "copy-webpack-plugin": "^4.5.2",
@@ -28,7 +29,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@wirelineio/botkit": "^0.1.21",
+    "@wirelineio/botkit": "^0.1.25",
     "@wirelineio/sdk": "^0.1.19",
     "source-map-support": "^0.5.11"
   },
@@ -36,7 +37,7 @@
     "clean": "rm -rf ./dist webpack.zip",
     "clean:data": "rm -rf ./data",
     "build": "webpack",
-    "start": "WRL_ALLOW_DEMOCREDENTIALS=0 AUTOMERGE_WORKER_PATH=./dist wire dev -p 3030",
+    "start": "WRL_ALLOW_DEMOCREDENTIALS=0 AUTOMERGE_WORKER_PATH=./dist wire bot run -v",
     "debug": "WIRE_SIGNALHUB=http://localhost:4000 yarn start",
     "test": "jest --silent"
   }
