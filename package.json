@@ -16,6 +16,7 @@
     "@wirelineio/cli-bot": "^0.3.3",
     "babel-loader": "^8.0.0",
     "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-watch": "7.0.0",
     "copy-webpack-plugin": "^4.5.2",
     "jest": "^24.6.0",
     "node-loader": "^0.6.0",

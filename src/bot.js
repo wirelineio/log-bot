@@ -6,7 +6,7 @@ import { LogBot } from '@wirelineio/botkit';
 
 import { view } from './defs';
 
-export class Bot extends LogBot {
+export default class Bot extends LogBot {
 
   constructor(config) {
     super(config, view);
