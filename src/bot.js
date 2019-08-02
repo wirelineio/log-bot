@@ -1,14 +1,18 @@
+//
+// Copyright 2019 Wireline, Inc.
+//
+
 import { LogBot } from '@wirelineio/botkit';
 
-import { name, view } from './defs';
+import { view } from './defs';
 
 export class Bot extends LogBot {
 
-  constructor(kappa) {
-    super(kappa, view, name);
+  constructor(config) {
+    super(config, view);
   }
 
-  onUpdate(view) {
-    console.log(JSON.stringify(view.logs.pop()));
+  async handleUpdate(itemId, itemLog) {
+    console.log(JSON.stringify(itemLog.pop()));
   }
 }
