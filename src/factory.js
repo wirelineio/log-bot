@@ -2,6 +2,6 @@
 // Copyright 2019 Wireline, Inc.
 //
 
-import { BotFactory, loadConfig } from '@wirelineio/botkit';
+import { BotFactory, loadConfig, getBotConfig } from '@wirelineio/botkit';
 
-new BotFactory(loadConfig(), [{ name: 'examplebot', file: './src/main.js' }]).start();
+new BotFactory(loadConfig(), [{ name: getBotConfig().id, file: './src/main.js' }]).start();
