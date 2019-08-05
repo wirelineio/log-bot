@@ -12,7 +12,7 @@ export default class Bot extends LogBot {
     super(config, view);
   }
 
-  async handleUpdate(itemId, itemLog) {
-    console.log(JSON.stringify(itemLog.pop()));
+  async handleUpdate(view) {
+    console.log(JSON.stringify(view.log.pop()));
   }
 }
