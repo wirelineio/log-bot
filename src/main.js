@@ -6,4 +6,4 @@ import { loadConfig } from '@wirelineio/botkit';
 
 import Bot from './bot';
 
-new Bot(loadConfig()).start();
+new Bot(loadConfig({ isBot: true })).start();
