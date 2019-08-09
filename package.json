@@ -12,8 +12,8 @@
     "@babel/plugin-transform-runtime": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.4.2",
-    "@wirelineio/cli": "^0.3.10",
-    "@wirelineio/cli-bot": "^0.3.10",
+    "@wirelineio/cli": "^0.3.14",
+    "@wirelineio/cli-bot": "^0.3.14",
     "babel-loader": "^8.0.0",
     "babel-plugin-add-module-exports": "^1.0.0",
     "babel-watch": "7.0.0",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@wirelineio/botkit": "^0.2.4",
+    "@wirelineio/botkit": "^0.2.5",
     "source-map-support": "^0.5.11"
   },
   "scripts": {
