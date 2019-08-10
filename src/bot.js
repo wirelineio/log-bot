@@ -1,7 +1,3 @@
-//
-// Copyright 2019 Wireline, Inc.
-//
-
 import { LogBot } from '@wirelineio/botkit';
 
 import { view } from './defs';
