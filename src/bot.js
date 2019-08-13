@@ -1,3 +1,7 @@
+//
+// Wireline SDK
+//
+
 import { LogBot } from '@wirelineio/botkit';
 
 import { view } from './defs';

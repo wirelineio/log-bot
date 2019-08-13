@@ -1,3 +1,7 @@
+//
+// Wireline SDK
+//
+
 import { loadConfig } from '@wirelineio/botkit';
 
 import Bot from './bot';
